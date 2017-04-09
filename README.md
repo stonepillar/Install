@@ -1,12 +1,9 @@
-# Install GitHub  
-
+# Install GitHub and Git
 ## Generated SSH key for github
-
 Right:
-> ssh-keygen -t rsa -b 4096 -C "you@gmail.com"  
-
+> ssh-keygen -t rsa -b 4096 -C "you@gmail.com"
 Wrong:
-> ssh-keygen -t rsa -b 4096 -f /Users/you/.ssh/id_rsa.**github** -C "you@gmail.com"  
+> ssh-keygen -t rsa -b 4096 -f /Users/you/.ssh/id_rsa.**github** -C "you@gmail.com"
 
 Note:  
  -f: set the SSH key file name and saved directory, but github only support the name "id_rsa"  
@@ -14,7 +11,6 @@ Note:
 
 For test SSH key:
 > ssh -T  git@github.com
-
 For test SSH key with verbose:
 > ssh -Tv git@github.com  
 
