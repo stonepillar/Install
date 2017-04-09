@@ -1,4 +1,5 @@
-#     Install GitHub
+# Install GitHub
+
 
 ## Generated SSH key for github
 
@@ -14,11 +15,13 @@ Note:
 
  -b: selected the number of password bit
 
+
 For test SSH key:
 > ssh -T  git@github.com
 
 For test SSH key with verbose:
 > ssh -Tv git@github.com
+
 
 ## Prepare for Git
 
