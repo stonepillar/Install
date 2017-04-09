@@ -1,4 +1,5 @@
 # Install GitHub and Git
+
 ## Generated SSH key for github
 
 Right:
@@ -17,10 +18,19 @@ For test SSH key:
 For test SSH key with verbose:
 > ssh -Tv git@github.com
 
-## Prepare for Git
+## Git config
+
 Three level of git config: local, global, system.  
 The related config file is saved as local directory .git/config, ~/.gitconfig, install_directory/gitconfig.  
 Below is the config setting:
 > git config --global user.name "you name"  
 > git config --global user.email "you_email@youemail.com"
+
+## Others
+
+1. You must created a repository first.
+2. Then use command *git remote add origin git@github.com:xxx/yyy.git* connected the local and remote repository.
+3. Then use command *git push -u origin master* push local files to remote repository.
+4. Note: You must *git commit* before "git push".
+5. Two **space** in the line end used for paragraph
 
