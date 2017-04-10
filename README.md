@@ -29,8 +29,8 @@ Below is the config setting:
 ## Others
 
 1. You must created a repository first.
-2. Then use command **Git remote add origin git@github.com:xxx/yyy.git** connected the local and remote repository.
-3. Then use command **Git push -u origin master** push local files to remote repository.
+2. Then use command **git remote add origin git@github.com:xxx/yyy.git** connected the local and remote repository.
+3. Then use command **git push -u origin master** push local files to remote repository.
 4. Note: You must **git commit** before **git push**.
 5. Two **space** in the line end used for paragraph
 
