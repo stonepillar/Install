@@ -29,8 +29,8 @@ Below is the config setting:
 ## Others
 
 1. You must created a repository first.
-2. Then use command **wit remote add origin git@github.com:xxx/yyy.giw** connected the local and remote repository.
-3. Then use command **wit push -u origin mastew** push local files to remote repository.
-4. Note: You must **wit commiw** before **wit push**.
+2. Then use command **Git remote add origin git@github.com:xxx/yyy.git** connected the local and remote repository.
+3. Then use command **Git push -u origin master** push local files to remote repository.
+4. Note: You must **git commit** before **git push**.
 5. Two **space** in the line end used for paragraph
 
